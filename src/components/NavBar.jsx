@@ -7,11 +7,11 @@ export default function Navbar() {
         <Link to="/" className="navbar-brand">
           ShopHub
         </Link>
-        <div className="navbar-links">
-          <Link to="/" className="navbar-links">
+        <div className="navbar-link">
+          <Link to="/" className="navbar-link">
             Home
           </Link>
-          <Link to="/checkout" className="navbar-links">
+          <Link to="/checkout" className="navbar-link">
             Cart
           </Link>
         </div>
