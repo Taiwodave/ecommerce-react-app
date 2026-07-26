@@ -8,10 +8,10 @@ export default function Navbar() {
           ShopHub
         </Link>
         <div className="navbar-link">
-          <Link to="/" className="navbar-link">
+          <Link to="/" className="navbar-links">
             Home
           </Link>
-          <Link to="/checkout" className="navbar-link">
+          <Link to="/checkout" className="navbar-links">
             Cart
           </Link>
         </div>
