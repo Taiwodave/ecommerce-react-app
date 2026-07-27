@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
 export default function Navbar() {
-  const { user, logout } = useAuth;
+  const { user, logout } = useAuth();
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-brand">
           ShopHub
         </Link>
-        <div className="navbar-link">
+        <div className="navbar-links">
           <Link to="/" className="navbar-links">
             Home
           </Link>
